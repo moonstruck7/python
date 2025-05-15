@@ -1,0 +1,22 @@
+# Example 1
+list1 = [12, -7, 5, 64, -14]
+positive_numbers1 = []
+
+for number in list1:
+    if number > 0:
+        positive_numbers1.append(number)
+
+print("Input: list1 =", list1, "Output:", end=" ")
+for num in positive_numbers1:
+    print(num, end=", ")
+print()  # for new line
+
+# Example 2
+list2 = [12, 14, -95, 3]
+positive_numbers2 = []
+
+for number in list2:
+    if number > 0:
+        positive_numbers2.append(number)
+
+print("Input: list2 =", list2, "Output:", positive_numbers2)
